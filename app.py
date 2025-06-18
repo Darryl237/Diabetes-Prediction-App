@@ -7,7 +7,6 @@ import joblib
 import os
 from utils.predict import predict_diabetes
 from PIL import Image
-from dotenv import load_dotenv
 
 # -------------------------
 # CONFIGURATION GÉNÉRALE STREAMLIT
@@ -19,9 +18,8 @@ st.set_page_config(
 )
 
 # Charger les variables d'environnement (.env)
-load_dotenv()
-USERNAME = os.getenv("APP_USERNAME")
-PASSWORD = os.getenv("APP_PASSWORD")
+USERNAME = st.secrets["APP_USERNAME"]
+PASSWORD = st.secrets["APP_PASSWORD"]
 
 # -------------------------
 # LANGUE (sélecteur + dictionnaire)

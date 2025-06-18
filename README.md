@@ -1,7 +1,6 @@
 
 # Diabetes Prediction App
 
-**Auteur : Darryl MOMO**  
 Application de prédiction du diabète avec Streamlit, modèle GBDT entraîné, visualisations, CSV, multilingue et recommandations personnalisées.
 
 ---
