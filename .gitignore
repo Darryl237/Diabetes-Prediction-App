@@ -1,0 +1,12 @@
+# Environnement Python
+.venv/
+__pycache__/
+*.pyc
+
+# Fichier sensible
+.env
+
+# Jupyter et fichiers de travail
+*.ipynb
+*.ipynb_checkpoints/
+train_scaler.py
