@@ -5,6 +5,19 @@ Application de prédiction du diabète avec Streamlit, modèle GBDT entraîné, 
 
 ---
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://diabetes-prediction-app-d.streamlit.app)
+
+## 🚀 Tester l'application en ligne
+
+🩺 **Accédez à l'application ici** :  
+🔗 [https://diabetes-prediction-app-d.streamlit.app](https://diabetes-prediction-app-d.streamlit.app)
+
+> **Identifiants pour la démonstration :**  
+> - 👤 Nom d'utilisateur : `admin`  
+> - 🔒 Mot de passe : `daikii123`
+
+---
+
 ## Objectifs du projet
 
 Cette application a été conçue pour :
